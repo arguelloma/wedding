@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Alejandro & Mariela</title>
+    <title>Kevin & Dariana</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Didact+Gothic&display=swap" rel="stylesheet">
@@ -16,10 +16,9 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/YouTubePopUp.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- FOR IE9 below -->
-    <!--[if lt IE 9]>
-        <script src="js/respond.min.js"></script>
-    <![endif]-->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Serenity&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 </head>
 <body>
        <!-- Preloader -->
@@ -39,8 +38,13 @@
 		<div class="container">
 			<!-- Logo -->
 			<div class="logo-wrapper navbar-brand valign">
-                <div class="logo">
-                    <a href="index.html"><h2>Alejandro &amp; Mariela</h2></a>
+                <!-- Logo inicial (sin scroll) -->
+                <div class="logo no-scroll-logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                </div>
+                <!-- Logo alternativo (con scroll) -->
+                <div class="logo scroll-logo">
+                    <a href="index.html"><img src="images/logo-scroll.png" alt="Logo Scroll"></a>
                 </div>
             </div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon-bar"><i class="ti-line-double"></i></span> </button>
@@ -49,13 +53,14 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a class="nav-link active" href="#home" data-scroll-nav="0">Inicio</a></li>
 					<li class="nav-item"><a class="nav-link" href="#couple" data-scroll-nav="1">Pareja</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#whenwhere" data-scroll-nav="6">Fecha</a></li>
 					<li class="nav-item"><a class="nav-link" href="#story" data-scroll-nav="2">Historia</a></li>
 					<li class="nav-item"><a class="nav-link" href="#gallery" data-scroll-nav="5">Galería</a></li>
-					<li class="nav-item"><a class="nav-link" href="#whenwhere" data-scroll-nav="6">Cuándo y Dónde?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#outfit" data-scroll-nav="3">Vestimenta</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#events" data-scroll-nav="4">Itinerario</a></li>
-					<li class="nav-item"><a class="nav-link" href="#rsvp" data-scroll-nav="7">Reserva</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#gift" data-scroll-nav="8">Regalos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#outfit" data-scroll-nav="3">Código de vestimenta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rsvp" data-scroll-nav="7">Lineamientos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rsvp" data-scroll-nav="7">Asistencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#events" data-scroll-nav="4">Agenda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gift" data-scroll-nav="8">Ubicación</a></li>
 				</ul>
 			</div>
 		</div>
@@ -67,14 +72,16 @@
         <div class="mary-hero js-fullheight">
             <div class="flexslider js-fullheight">
                 <ul class="slides">
-                    <li class="bg-fixed" style="background-image: url(images/slider/1.jpg);" data-overlay-dark="2" id="icon">
+                    <!--<li class="bg-fixed" style="background-image: url(images/slider/1.jpg);" data-overlay-dark="2" id="icon">-->
+                    <li class="bg-fixed desktop-bg mobile-bg" data-overlay-dark="2" id="icon">
                         <div class="overlay"></div>
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12 text-center js-fullheight slider-text">
                                     <div class="slider-text-inner mx-auto">
-                                        <h2>Alejandro & Mariela</h2>
-                                        <h6>26 Marzo, 2023 — Grecia</h6>
+                                        <h2>Kevin & Dariana</h2>
+                                        <h6>01 Febrero, 2025</h6>
+                                        <img src="images/invitado.png" class="small-image">
                                     </div>
                                 </div>
                             </div>
@@ -92,16 +99,15 @@
                 <div class="col-md-12 text-center">
                     <div class="welcome-mt">
                         <div class="welcome-image-wrapper">
-                            <div class="img">
-                                <a href="#" data-scroll-nav="1"><img src="images/couple.png" alt=""></a>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-8 offset-md-2 text-center">
-                    <h6 class="section-subtitle">Hola & Bienvenido</h6>
-                    <h2 class="section-title">¡Nos vamos a casar!</h2>
-                    <p>"Nos complace que sean parte de esta nueva etapa de nuestras vidas, esperamos que nos puedan acompañar en este día tan especial"</p>
+                    <h6 class="section-subtitle">¡PRONTO SEREMOS UNA SOLA CARNE!</h6>
+                    <br><br>
+                    <p>Estamos emocionados de compartir con ustedes uno de los momentos más maravillosos de nuestras vidas, 
+                        así que con alegría en nuestros corazones, les invitamos a celebrar nuestra unión en un día lleno de amor, 
+                        música y felicidad. Acompañanos en este hermoso viaje mientras damos el siguiente paso en nuestra historia juntos.</p>
                 </div>
             </div>
         </div>
@@ -111,39 +117,33 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center mb-30 animate-box" data-animate-effect="fadeInUp">
-                    <h6 class="section-subtitle">Novio & Novia</h6>
-                    <h2 class="section-title">Feliz Pareja</h2>
                 </div>
                 <div class="col-md-4 offset-md-2 text-center animate-box" data-animate-effect="fadeInLeft">
                     <div class="item mb-30">
-                        <div class="img"> <img src="images/groom.png" alt=""> </div>
+                        <div class="img"> <img src="images/groom.jpg" alt=""> </div>
                         <div class="info valign">
                             <div class="full-width">
-                                <h6>Alejandro Rojas</h6> <span>El novio</span>
-                                <p>Ale es una persona super servicial, atento y que cada día me hace reír, pero sobre todo amo su inmenso corazón con que se entrega para luchar por lo que desea y ayudar a las personas a su alrededor, un día con el siempre está lleno de risas y alegría.</p>
-                                <div class="social">
-                                    <div class="full-width">
-                                        <a href="https://www.facebook.com/alerojas1104" class="icon"> <i class="ti-facebook"></i> </a>
-                                        <a href="https://instagram.com/alerojas1193?igshid=YmMyMTA2M2Y=" class="icon"> <i class="ti-instagram"></i> </a>
-                                    </div>
-                                </div>
+                                <h6>El novio</h6>
+                                <p>Kevin es un hombre alegre, carismático y cariñoso, conocido por su gran inteligencia y su pasión por las caminatas en la montaña y
+                                     los videojuegos. Es ingeniero en Construcción, oriundo de Liberia, Guanacaste, a sus 27 años de edad destaca por tener un espíritu
+                                     de servicio, compromiso y dedicación en todo lo que realiza. Su carácter amable y su entusiamo genuino por la vida, hacen de él una 
+                                     persona maravilosa y excepcional, siempre dispuesto a compartir su alegría y energía positiva con quienes lo rodean.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 text-center animate-box" data-animate-effect="fadeInRight">
                     <div class="item mb-30">
-                        <div class="img"> <img src="images/bride.png" alt=""> </div>
+                        <div class="img"> <img src="images/bride.jpg" alt=""> </div>
                         <div class="info valign">
                             <div class="full-width">
-                                <h6>Mariela Arguello</h6> <span>La novia</span>
-                                <p>Mari es una mujer valiente, luchadora y esforzada que cautivó mi corazón y desde el momento en que Dios nos acercó supe que era el amor de mi vida y con quien quiero pasar el resto de mis días.</p>
-                                <div class="social">
-                                    <div class="full-width">
-                                        <a href="https://www.facebook.com/mariela.arguellotrejos" class="icon"> <i class="ti-facebook"></i> </a>
-                                        <a href="https://instagram.com/mariela_arguello?igshid=YmMyMTA2M2Y=" class="icon"> <i class="ti-instagram"></i> </a>
-                                    </div>
-                                </div>
+                                <h6>La novia</h6>
+                                <p>Dariana es una mujer apasionada del arte, con una sensibilidad especial que ha nutrido desde pequeña a través de su amor por el canto y la 
+                                    música. Es Ingeniera en Diseño Industrial, oriunda de Grecia y a sus 27 años combina su creatividad y precisión en cada proyecto llevando a 
+                                    su sello único de dedicación. Su determincación y carácter fuerte le permiten cumplir todo lo que se propone, lo que la convierte en una mujer
+                                    auténtica y comprometida. Con su talento innato, tiene la capcidad de transformar lo cotidiano en algo especial. 
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -152,12 +152,11 @@
         </div>
     </div>
     <!-- Countdown section -->
-    <div id="countdown" class="section-padding bg-img bg-fixed" data-overlay-dark="1" data-background="images/banner/4.jpg">
+    <div id="countdown" class="section-padding bg-img bg-fixed" data-scroll-index="6">
         <div class="container">
             <div class="row">
                 <div class="section-head col-md-12">
-                    <h6>Nos convertiremos en una familia en</h6>
-                    <h2>Nos casaremos en</h2>
+                    <h6>Nos casamos en</h6>
                 </div>
             </div>
             <div class="row">
@@ -170,79 +169,139 @@
                     </ul>
                 </div>
             </div>
+            <div class="row">
+                <div class="section-head col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="section-head col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="section-head col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="section-head col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="section-head col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="section-head col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="section-head col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="section-head col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="section-head col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="section-head col-md-12" >
+                    <h2>FEBRERO</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="section-head col-md-12">
+                    <h2>01 <span class="blue-dots">·</span> 02 <span class="blue-dots">·</span> 2025</h2>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="section-head col-md-12">
+                    <img src="images/slider/calendario.png" alt="">
+                </div>
+            </div>
         </div>
     </div>
     <!-- Story section -->
     <div id="story" class="story section-padding" data-scroll-index="2">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center animate-box" data-animate-effect="fadeInUp">
-                    <h6 class="section-subtitle">Alejandro & Mariela</h6>
-                    <h2 class="section-title">Nuestra Historia</h2>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-md-12 animate-box" data-animate-effect="fadeInUp">
                     <div class="owl-carousel owl-theme">
-                        <div class="story left">
-                            <figure><img src="images/story/4.jpg" alt="" class="img-fluid"></figure>
-                            <div class="caption">
-                                <h6>07 de abril, 2019</h6>
-                                <h4>Nos conocimos</h4>
-                                <p>Nos conocíamos desde hace años, pero fue hasta abril del 2019 en un encuentro de jóvenes donde empezamos a conocernos de verdad. "Mari estaba predicando el domingo en la tarde y yo estaba recogiendo el equipo, cuando la vi, vi un rayo de sol que la alumbraba solo a ella, y desde ese momento supe que era la indicada."</p>
+                        <div class="story all">
+                            <!--<img src="images/story/story.jpg" alt="">-->
+                            <div class="story-content">
+                                <picture>
+                                    <!-- Imagen para móviles -->
+                                    <source srcset="images/story/2.jpg" media="(max-width: 768px)">
+                                    <!-- Imagen para desktop -->
+                                    <img src="images/story/1.jpg" alt="Nuestra historia">
+                                </picture>
+                                <div class="center-text">NUESTRA HISTORIA</div>
                             </div>
                         </div>
-                        <div class="story left">
-                            <figure><img src="images/story/2.jpg" alt="" class="img-fluid"></figure>
+                        <div class="story all">
+                            <figure><img src="images/story/a.png" alt="" class="img-fluid"></figure>
                             <div class="caption">
-                                <h6>10 de Junio, 2019</h6>
-                                <h4>Primera cita</h4>
-                                <p>"Después de semanas de hablar por mensajes, Ale me invitó a comer sushi, que es de sus comidas favoritas y ahora la mía también, pero en ese momento casi nunca había comido y estaba muy nerviosa de saber como agarrar los palillos y por ser nuestra primera salida".</p>
+                                <h6>¿Cómo NOS cONOCIMOS?</h6>
+                                <br>
+                                <h4>29 · 02 · 2016</h4>
+                                <p>"Nos conocimos a finales febrero del 2016 en un compartir en el complejo de apartamentos de la universidad. Unos días después, 
+                                    Kevin y yo nos cruzamos en la universidad y no me di cuenta. Esa misma noche, llegó a mi apartamento a reclamarme por haberlo 
+                                    ignorado. Después de esa conversación, salió conmigo y con una amistad de la universidad. Desde ese entonces, no dejamos de hablar.
+                                    <br>- Dariana"
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div class="story all">
+                            <figure><img src="images/story/b.png" alt="" class="img-fluid"></figure>
+                            <div class="caption">
+                                <h6>¿La Primera Cita?</h6>
+                                <br>
+                                <h4>13 · 03 · 2016</h4>
+                                <p>"Fue en la primera mitad de marzo del 2016, yo tenía un examen de Física I el lunes y estaba estudiando el fin de semana. 
+                                    Dariana estaba de paseo con la familia en el mirador de Orosi y nos pusimos de acuerdo para vernos luego de que llegara. 
+                                    Ella fue a acompañarme mientras estudiaba y luego se ofreció a prepararme la cena.<br>
+                                    Hizo espagueti al ajillo y queso parmesano. Después de cenar nos sentamos a conversar y le robé un beso al tiempo de estar 
+                                    conversando.<br>
+                                    - Kevin"
+                                </p>
                             </div>
                         </div>
-                        <div class="story left">
-                            <figure><img src="images/story/1.jpg" alt="" class="img-fluid"></figure>
+                        <div class="story all">
+                            <figure><img src="images/story/c.png" alt="" class="img-fluid"></figure>
                             <div class="caption">
-                                <h6>04 de Agosto, 2019</h6>
-                                <h4>Nos hicimos novios</h4>
-                                <p>"Aunque teníamos poco tiempo de salir yo ya quería que fuera mi novia y la llevé a desayunar a Fraijanes donde muy nervioso se lo pregunté y aceptó."</p>
+                                <h6>¡Nos hicimos novios!</h6>
+                                <br>
+                                <h4>09 · 04 · 2016</h4>
+                                <p>"Habíamos planeado un hermoso día en el jardín botánico Lankester, disfrutando juntos de cada rincón y de la belleza de las 
+                                    plantas. Al final del recorrido, mientras caminábamos por un túnel natural de ramas y arbustos, en completa tranquilidad, 
+                                    Kevin se detuvo, se volvió hacia mí y me pidió que fuéramos novios. Con una sonrisa, le dije que sí, y en ese instante nuestro 
+                                    camino juntos tomó un nuevo rumbo, marcado por ese especial “sí” entre las ramas y la serenidad del jardín.
+                                    <br>- Dariana"
+                                </p>
                             </div>
                         </div>
-                        <div class="story left">
-                            <figure><img src="images/story/3.jpg" alt="" class="img-fluid"></figure>
+                        <div class="story all">
+                            <figure><img src="images/story/d.png" alt="" class="img-fluid"></figure>
                             <div class="caption">
-                                <h6>19 de Junio, 2022</h6>
-                                <h4>Propuesta de matrimonio</h4>
-                                <p>"Ese día ni imaginaba que en mi propio cumpleaños iba a ser el gran día. Ale me llevó a un paseo para celebrarlo y fue en el Bosque de Prusia donde hizo la propuesta de una forma inolvidable."</p>
+                                <h6>¡El día de la propuesta!</h6>
+                                <br>
+                                <h4>02 · 06 · 2024</h4>
+                                <p>"El día antes estaba terminando de comprar las cosas que me hacían falta y pasé desde las 11pm hasta las 3am 
+                                    decorando donde le iba a proponer matrimonio para que fuera sorpresa. En la mañana del domingo nos teníamos 
+                                    que alistar para ir a la iglesia y cuando me levanté toda la decoración se había caído y me tocó correr a alistarme 
+                                    y preparar de nuevo la decoración porque estaba en el suelo.<br>
+                                    Corriendo arreglé todo lo mejor que pude y llamé a Dariana para que llegara urgentemente a la casa donde le había preparado 
+                                    la decoración, cuando ella entró yo estaba arrodillado con el anillo en la mano listo para proponerle matrimonio, ella apenas 
+                                    entró comenzó a llorar y me dijo que sí.<br>
+                                    - Kevin"
+                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Video section -->
-    <div id="video" class="story-video section-padding bg-img bg-fixed" data-overlay-dark="2" data-background="images/banner/3.jpg">
-        <div class="container">
-            <div class="video-wrapper">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="caption">
-                            <h6 class="subtitle">UNA FAMILIA QUE COMIENZA</h6>
-                            <h2 class="title">Mira nuestra historia de amor</h2><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 mb-60 img text-center">
-                        <a class="vid valign" href="https://youtu.be/pG3Bo8kAt1I">
-                            <div class="vid-butn">
-                                <span class="icon"><i class="ti-control-play"></i></span>
-                            </div>
-                        </a>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -253,16 +312,15 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h6 class="section-subtitle">Galería</h6>
-                    <h2 class="section-title">Sesión de compromiso</h2>
                 </div>
             </div>
+
+            <!-- Galería estática (para desktop) -->
             <div class="row gallery-filter">
                 <div class="col-md-4 gallery-item ceremony">
                     <a href="images/gallery/1.jpg" class="img-zoom">
                         <div class="gallery-box">
                             <div class="gallery-img"> <img src="images/gallery/1.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                            <div class="gallery-detail">
-                            </div>
                         </div>
                     </a>
                 </div>
@@ -270,17 +328,13 @@
                     <a href="images/gallery/2.jpg" class="img-zoom">
                         <div class="gallery-box">
                             <div class="gallery-img"> <img src="images/gallery/2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                            <div class="gallery-detail">
-                            </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4 gallery-item ceremony">
+                <div class="col-md-4 gallery-item party">
                     <a href="images/gallery/3.jpg" class="img-zoom">
                         <div class="gallery-box">
                             <div class="gallery-img"> <img src="images/gallery/3.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                            <div class="gallery-detail">
-                            </div>
                         </div>
                     </a>
                 </div>
@@ -288,45 +342,143 @@
                     <a href="images/gallery/4.jpg" class="img-zoom">
                         <div class="gallery-box">
                             <div class="gallery-img"> <img src="images/gallery/4.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                            <div class="gallery-detail">
-                            </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4 gallery-item ceremony">
+                <div class="col-md-4 gallery-item party">
                     <a href="images/gallery/5.jpg" class="img-zoom">
                         <div class="gallery-box">
                             <div class="gallery-img"> <img src="images/gallery/5.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                            <div class="gallery-detail">
-                            </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4 gallery-item ceremony">
-                    <a href="images/gallery/5.jpg" class="img-zoom">
+                <div class="col-md-4 gallery-item party">
+                    <a href="images/gallery/6.jpg" class="img-zoom">
                         <div class="gallery-box">
                             <div class="gallery-img"> <img src="images/gallery/6.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                            <div class="gallery-detail">
-                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item party">
+                    <a href="images/gallery/7.jpg" class="img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="images/gallery/7.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item party">
+                    <a href="images/gallery/8.jpg" class="img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="images/gallery/8.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item party">
+                    <a href="images/gallery/9.jpg" class="img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="images/gallery/9.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item party">
+                    <a href="images/gallery/10.jpg" class="img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="images/gallery/10.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item party">
+                    <a href="images/gallery/11.jpg" class="img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="images/gallery/11.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item party">
+                    <a href="images/gallery/12.jpg" class="img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="images/gallery/12.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
                         </div>
                     </a>
                 </div>
             </div>
+
+            <!-- Carrusel Swiper (solo para móviles) -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/gallery/1.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/2.jpg" >
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/3.jpg" >
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/4.jpg" >
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/5.jpg" >
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/6.jpg" >
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/7.jpg" >
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/8.jpg" >
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/9.jpg" >
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/10.jpg" >
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/11.jpg" >
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/12.jpg" >
+                    </div>
+                </div>
+
+                <!-- Agregar controles de Swiper -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
         </div>
     </div>
-    <!-- Banner section -->
-    <div id="banner" class="section-padding bg-img bg-fixed" data-overlay-dark="1" data-background="images/banner/1.jpg">
+
+     <!-- Dress Code section -->
+     <div id="outfit" class="bride-groom clear section-padding bg-cream" data-scroll-index="3">
         <div class="container">
             <div class="row">
-                <div class="section-head col-md-12">
-                    <h6>Agenda la fecha</h6>
-                    <h2>¡Espero verte!</h2>
-                    <h1>26.03.2023</h1>
-                    <h1><i class="ti-heart"></i></h1>
+                <div class="col-md-12 text-center mb-30 animate-box" data-animate-effect="fadeInUp">
+                    <h6 class="section-subtitle">Código de Vestimenta</h6>
+                </div>
+                <div class="col-md-4 offset-md-2 text-center animate-box" data-animate-effect="fadeInLeft">
+                    <div class="item mb-30">
+                        <div class="color-img"> <img src="images/colores.png" alt=""> </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center animate-box" data-animate-effect="fadeInRight">
+                    <div class="item mb-30">
+                        <h4 class="section-subtitle">Boda Elegante - Formal</h4>
+                        <a href="https://www.pinterest.com/darianasoto13/vestimenta-elegante-formal/" target="_blank">Algunas ideas aquí</a>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center mb-30 animate-box">
+                    <p>Les invitamos a lucir ropa de vestir elegante y sofisticada. Para las damas, se sugiere un vestido largo, de cóctel o una blusa elegante con falda o pantalón de vestir. Los caballeros pueden optar por camisa de vestir con pantalones formales; no es necesario el uso de traje completo. Queremos que todos se sientan especiales y cómodos en este día tan importante.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
+    
+
     <!-- When & Where section -->
     <div id="whenwhere" class="when-where section-padding" data-scroll-index="6">
         <div class="container">
@@ -419,33 +571,7 @@
         </div>
 		</div>
 	</div>
-    <!-- Dress Code section -->
-    <div id="outfit" class="bride-groom clear section-padding bg-cream" data-scroll-index="3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center mb-30 animate-box" data-animate-effect="fadeInUp">
-                    <h6 class="section-subtitle">Código de Vestimenta</h6>
-                    <h2 class="section-title">Formal</h2>
-                </div>
-                <div class="col-md-4 offset-md-2 text-center animate-box" data-animate-effect="fadeInLeft">
-                    <div class="item mb-30">
-                        <div class="img"> <img src="images/dress.png" alt=""> </div>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center animate-box" data-animate-effect="fadeInRight">
-                    <div class="item mb-30">
-                        <div class="img"> <img src="images/suit.png" alt=""> </div>
-                    </div>
-                </div>
-                <div class="col-md-12 text-center mb-30 animate-box">
-                    <p>Vestimenta de ocasión formal<br>
-                       Hombres: Traje<br>
-                       Mujeres: Vestido<br> 
-                       Por favor no utilizar vestidos blancos, jeans, ni tennis.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <!-- Events section -->
     <div id="events" class="events section-padding" data-scroll-index="4">
         <div class="container">
@@ -585,7 +711,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 bg-white p-60">
-                    <h2 class="text-center">Hemos reservado 5 <br>espacios para ti</br></h2>
+                    <h2 class="text-center">Hemos reservado 1 <br>espacio para ti</br></h2>
                     <h6 class="text-center">Favor confirmar antes del 09 de Febrero del 2023</h6>
                         <div class="text-center">
                             <input class="btn" value="Confirmar asistencia" type="button" onclick="window.location.href='confirmar-asistencia.html'">
@@ -603,9 +729,9 @@
                 <div class="col-md-12 text-center">
                     <h6 class="section-subtitle">Regalos</h6>
                     <div class="text">
-                        <p>¡Y vos sos parte de este sueño! El obsequio es opcional pero tu presencia obligatoria.
-                            <br>Con su asistencia estaríamos más que agradecidos, pero si quieren obsequiarnos algo 
-                            <br>más pueden hacerlo por medio de: <br><br>
+                        <p>¡Vos formás parte de este sueño! Nuestro mayor regalo es contar con su.
+                            <br>presencia, pero si deseas obsequiarnos algo para nuestra nueva vida juntos,
+                            <br>podés hacerlo a través de: <br><br>
                         </p>
                     </div>
                     <!-- <h2 class="section-title">Con su asistencia estaríamos más que agradecidos pero si quieren obsequiarnos algo más pueden hacer una transferencia bancaria.</h2>-->
@@ -614,37 +740,32 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                         <div class="">
-                            <h6 class="section-subtitle">Depósito SINPE Móvil</h6>
-                            <p>85822918<br>
-                            Nombre: MARIELA DE LOS ANGELES ARGUELLO TREJOS<br>
-                            Detalle: AleyMari<p><br>
+                            <h6 class="section-subtitle">BAC San José</h6>
+                            Nombre: DARIANA MARIA SOTO ARIAS<br>
+                            Número de cuenta IBAN: CR50010200009631952764<p><br>
                         </div>
                         <div class="">
-                            <h6 class="section-subtitle">Cuenta Banco Nacional</h6>
-                            <p>Nro. Cuenta: 200-01-129-073932-9<br>
-                            Nro. IBAN: CR82015112920010739329<br>
-                            Nro. Cliente: 15112920010739329<br>
-                            Titular: MARIELA DE LOS ANGELES ARGUELLO TREJOS<br>
-                            Detalle: AleyMari<p><br>
+                            <h6 class="section-subtitle">Banco Nacional de Costa Rica</h6>
+                            <p>Nombre: KEVIN ADOLFO GARCÍA MARTÍNEZ
+                            <br>Número de cuenta IBAN: CR21015104920010123907<p><br>
                         </div>
                         <div class="">
-                            <h6 class="section-subtitle">Cuenta BAC</h6>
-                            Nro. BAC: 940166630<br>
-                            Nro. IBAN: CR94010200009401666309<br>
-                            Titular: MARIELA DE LOS ANGELES ARGUELLO TREJOS<br>
-                            Detalle: AleyMari<p><br>
+                            <h6 class="section-subtitle">SINPE MÓVIL</h6>
+                            8960-1550 Kevin García Martínez<br><p><br>
                         </div>
                         <div class="">
-                            <h6 class="section-subtitle">Lista de Regalos CEMACO</h6>
+                            <h6 class="section-subtitle">Lista de regalos Siman</h6>
+                            <p>También, podés pasar por cualquiera de las tiendas físicas SIMAN o la tienda 
+                            <br>de SIMAN en línea, donde hemos dejado una lista de opciones para facilitar 
+                            <br>tu elección.<p></p>
                             <div class="text-center">
-                                <a href="https://www.cemaco.co.cr/giftlist/details/alemari"><input class="btn" value="Ir a la lista" type="button"></a>
+                                <a href="https://simangiftregistry.web.app/table/50003692"><input class="btn" value="Ver lista de regalos" type="button"></a>
                             </div> 
-                            
-                            Boda Ale & Mari<p><br>
+                            <br>
                         </div>
                         <div class="">
                             <h6 class="section-subtitle">Cofre de la mesa de regalos</h6>
-                            <p>En efectivo en sobres<p><br>
+                            <p>En la recepción de la boda podrás encontrar un pequeño cofre donde podés ingresar sobres con dinero en efectivo.<p><br>
                         </div>
                 </div>
             </div>
@@ -709,6 +830,23 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/YouTubePopUp.js"></script>
     <script src="js/template.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        // Inicializar Swiper solo en móvil
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+
 
 </body>
 </html>

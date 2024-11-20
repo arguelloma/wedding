@@ -26,6 +26,58 @@
 24. Overlay Effect Bg image
 
 ------------------------------------------------------------------- */
+/* =======  Dress Code Style  ======= */
+.color-img {
+    width: 215px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+#outfit {
+    position: relative;
+    z-index: 30;
+    background-image: url('images/slider/flor03.svg'); /* Cambia a la ruta de tu imagen de la flor */
+    background-repeat: no-repeat;
+    background-position: right -150px bottom 200px; /* Posición de la flor en la esquina inferior izquierda */
+    background-size: 500px; /* Ajusta el tamaño de la flor según lo necesites */
+}
+
+@media screen and (max-width: 768px) {
+    #outfit {
+        position: relative;
+        z-index: 30;
+        background-image: url('images/slider/flor01.svg'); /* Cambia a la ruta de tu imagen de la flor */
+        background-repeat: no-repeat;
+        background-position: left -150px bottom 600px; /* Posición de la flor en la esquina inferior izquierda */
+        background-size: 400px; /* Ajusta el tamaño de la flor según lo necesites */
+    }
+}
+
+/* Estilos específicos para el bloque con el ID 'dress-code' */
+#outfit h4.section-subtitle {
+    font-family: 'Serenity', sans-serif;
+    display: block;
+    color: #1b1b1b;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: none;
+}
+
+#outfit p {
+    text-align: justify;
+}
+
+#outfit a {
+    text-decoration: underline;
+    color: black;
+}
+
+#outfit a:hover {
+    color: black;
+}
+
 
 
 /* =======  Default style  ======= */
@@ -76,10 +128,10 @@ h6 {
 }
 p {
     font-family: 'Didact Gothic', sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 1.75em;
     margin: 0 0 20px;
-    color: #666;
+    color: #1b1b1b;
     font-weight: 400;
 }
 /* lists */
@@ -117,7 +169,7 @@ img {
     color: #fff;
 }
 .bg-cream {
-    background: #faf8f7;
+    background: #fff;
 }
 .o-hidden {
     overflow: hidden;
@@ -174,11 +226,20 @@ a[href^="tel"] {
     text-decoration: none;
 }
 .bg-fixed {
-    background-attachment: fixed;
+    background: #fff;
+    background-image: url('images/slider/flor02.svg'); /* Cambia a la ruta de tu imagen de la flor */
+    background-repeat: no-repeat;
+    background-position: left -30px top 110px; /* Posición de la flor en la esquina inferior izquierda */
+    background-size: 900px; /* Ajusta el tamaño de la flor según lo necesites */
 }
 @media (max-width: 992px) {
     .bg-fixed {
-    background-attachment: initial;}
+        background: #fff;
+        background-image: url('images/slider/flor02.svg');
+        background-position: left -350px top -50px;
+        background-size: 800px;
+        background-repeat: no-repeat;
+    ;}
 }
 .p-40 {
     padding: 40px;
@@ -268,8 +329,8 @@ input[type="reset"],
 input[type="button"],
 button {
     font-family: 'Didact Gothic', sans-serif;
-    background: #b08c3e;
-    border: 1px solid #b08c3e;
+    background: #e7ba74;
+    border: 1px solid #e7ba74;
     color: #fff;
     padding: 12px 30px;
     margin: 0;
@@ -335,7 +396,7 @@ input[type=checkbox]:before {
 input[type=checkbox]:after {
     font-family: 'themify';
     content: '\e64c';
-    color: #b08c3e;
+    color: #e7ba74;
     background: transparent;
     position: absolute;
     top: 1px;
@@ -378,7 +439,7 @@ input[type=radio]:before {
     display: inline-block;
     top: 0px;
     left: -4px;
-    background-image: radial-gradient(circle, #b08c3e 50%, #fff 70%);
+    background-image: radial-gradient(circle, #e7ba74 50%, #fff 70%);
     background-size: 0;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -461,7 +522,7 @@ input[type=radio]:checked:before {
   position: absolute;
   width: 26px;
   height: 26px;
-  background: #b08c3e;
+  background: #e7ba74;
   animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .lds-heart div:after,
@@ -471,7 +532,7 @@ input[type=radio]:checked:before {
   display: block;
   width: 26px;
   height: 26px;
-  background: #b08c3e;
+  background: #e7ba74;
 }
 .lds-heart div:before {
   left: -17px;
@@ -534,8 +595,8 @@ input[type=radio]:checked:before {
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #b08c3e;
-    border: 1px solid #b08c3e;
+    background: #e7ba74;
+    border: 1px solid #e7ba74;
 }
 
 
@@ -556,7 +617,7 @@ input[type=radio]:checked:before {
     outline: none;
 }
 .navbar .navbar-toggler-icon {
-    color: #b08c3e;
+    color: #e7ba74;
     
 }
 .navbar .navbar-nav .nav-link {
@@ -572,10 +633,10 @@ input[type=radio]:checked:before {
     color: #fff;
 }
 .navbar .navbar-nav .nav-link:hover {
-    color: #b08c3e;
+    color: #e7ba74;
 }
 .navbar .navbar-nav .active {
-    color: #b08c3e !important;
+    color: #e7ba74 !important;
 }
 .nav-scroll {
     background: #fff;
@@ -594,24 +655,22 @@ input[type=radio]:checked:before {
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.03);
 }
 .nav-scroll .navbar-toggler-icon {
-    color: #b08c3e;
+    color: #e7ba74;
 }
 .nav-scroll .navbar-nav .nav-link {
     color: #1b1b1b;
 }
 .nav-scroll .navbar-nav .active {
-    color: #b08c3e !important;
+    color: #e7ba74 !important;
 }
 .nav-scroll .navbar-nav .logo {
     padding: 15px 0;
     color: #666;
 }
 .nav-scroll .logo {
-    width: 240px;
+    width: 60px;
 }
-.nav-scroll .logo-img {
-    margin-bottom: 0px;
-}
+
 .nav-scroll .logo-wrapper .logo h2 {
     font-family: 'Alex Brush', cursive;
     font-size: 36px;
@@ -742,7 +801,7 @@ input[type=radio]:checked:before {
 .sub-menu .dropdown-item:hover {
     background: transparent;
     padding-left: 20px;
-    color: #b08c3e;
+    color: #e7ba74;
 }
 .dropdown-menu .dropdown-item a,
 .sub-menu .dropdown-item a {
@@ -751,15 +810,15 @@ input[type=radio]:checked:before {
 }
 .dropdown-menu .dropdown-item a:hover,
 .sub-menu .dropdown-item a:hover {
-color: #b08c3e;
+color: #e7ba74;
 }
 .dropdown-menu .dropdown-item a .badge,
 .sub-menu .dropdown-item a .badge {
     margin-left: 10px;
     padding: 3px 5px 3px 5px;
     font-size: 8px;
-    background: #b08c3e;
-    border: 1px solid #b08c3e;
+    background: #e7ba74;
+    border: 1px solid #e7ba74;
     top: 12px;
     border-radius: 0px;
     color: #1b1b1b;
@@ -812,6 +871,23 @@ color: #b08c3e;
         padding: 15px;
         background-color: #fff;
     }
+}
+
+/* Logo inicial */
+.no-scroll-logo {
+    width: 60px;
+    display: block;
+}
+.scroll-logo {
+    display: none;
+}
+
+/* Mostrar el logo alternativo cuando se hace scroll */
+.nav-scroll .no-scroll-logo {
+    display: none;
+}
+.nav-scroll .scroll-logo {
+    display: block;
 }
 
 /* ======= Page Header style ======= */
@@ -902,10 +978,11 @@ color: #b08c3e;
     min-height: 100vh;
     padding: 20px;
     position: relative;
+    padding-top: 200px;
 }
 .mary-hero .flexslider .slider-text > .slider-text-inner .desc {
     position: absolute;
-    bottom: 0px;
+    bottom: -200px;
     left: 0;
     padding: 20px;
     background: transparent;
@@ -935,7 +1012,15 @@ color: #b08c3e;
     font-weight: 400;
     margin: 0;
     letter-spacing: 5px;
+    margin-bottom: 10px;
 }
+
+.mary-hero .flexslider .slider-text > .slider-text-inner img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
     .mary-hero .flexslider .slider-text > .slider-text-inner h2 {
         font-size: 60px;
@@ -968,6 +1053,31 @@ color: #b08c3e;
     }
 }
 
+/* Estilo de fondo para desktop */
+.desktop-bg {
+    background-image: url('images/slider/1.jpg');
+}
+
+/* Cambia la imagen de fondo para pantallas de menos de 768px (móviles) */
+@media screen and (max-width: 768px) {
+    .mobile-bg {
+        background-image: url('images/slider/2.jpg');
+    }
+    .swiper-button-prev,
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        display: none !important;
+    }
+    .swiper-button-lock {
+        display: none !important;
+    }
+    .swiper-pagination {
+        display: none !important;
+    }
+}
+
+
 
 /* =======  Section & Title style  ======= */
 .section-padding {
@@ -994,10 +1104,10 @@ color: #b08c3e;
 }
 .section-subtitle {
     display: block;
-    color: #b08c3e;
-    font-size: 14px;
+    color: #1b1b1b;
+    font-size: 30px;
     font-weight: 400;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Cinzel', serif;
     margin-bottom: 10px;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -1012,7 +1122,7 @@ color: #b08c3e;
 }
 .rsvp h6 {
     display: block;
-    color: #b08c3e;
+    color: #e7ba74;
     font-size: 15px;
     font-weight: 400;
     font-family: 'Didact Gothic', sans-serif;
@@ -1022,8 +1132,12 @@ color: #b08c3e;
 /* =======  Welcome style  ======= */
 .welcome {
     position: relative;
-    z-index: 20;
+    z-index: 30;
     text-align: center;
+    background-image: url('images/slider/flor01.svg'); /* Cambia a la ruta de tu imagen de la flor */
+    background-repeat: no-repeat;
+    background-position: right -150px bottom -110px; /* Posición de la flor en la esquina inferior izquierda */
+    background-size: 600px; /* Ajusta el tamaño de la flor según lo necesites */
 }
 .welcome-mt {
     margin-top: -18% !important;
@@ -1042,7 +1156,7 @@ color: #b08c3e;
     border: 12px solid rgba(255,255,255,0.2);
     border-radius: 100%;
     margin-bottom: 30px;
-        overflow: hidden;
+    overflow: hidden;
 }
 
 
@@ -1055,9 +1169,9 @@ color: #b08c3e;
 }
 
 .bride-groom .img {
-    width: 190px;
-    height: 190px;
-    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    border-radius: 0%;
     overflow: hidden;
     margin: 0 auto 20px;
 }
@@ -1067,22 +1181,26 @@ color: #b08c3e;
 .bride-groom .info h6 {
     font-size: 16px;
     margin-bottom: 10px;
-    font-family: 'Didact Gothic', sans-serif;
+    color: #1b1b1b;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 .bride-groom .info h6 i {
-    color: #b08c3e;
+    color: #e7ba74;
     font-size: 16px;
 }
 .bride-groom .info span {
-      color: #b08c3e;
+      color: #e7ba74;
     font-size: 24px;
     font-weight: 400;
     font-family: 'Alex Brush', cursive;
 }
 .bride-groom .info p {
     margin-top: 10px;
+    font-size: 17px;
 }
 .bride-groom .info .social {
   margin-top: 10px;
@@ -1144,9 +1262,25 @@ color: #b08c3e;
     width: 66.666667%;
     margin-left: auto;
 }
+
 .story.left figure {
     margin-left: 0;
     margin-right: auto;
+}
+
+.story.all figure {
+    margin-left: 150;
+    width: 100%;
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 54px;
+    font-family: 'Cinzel', serif;
 }
 
 .story .caption {
@@ -1173,7 +1307,7 @@ color: #b08c3e;
     font-family: 'Alex Brush', cursive;
 }
 .story .caption h6 {
-    color: #b08c3e;
+    color: #1b1b1b;
     font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     margin-bottom: 10px;
@@ -1183,10 +1317,20 @@ color: #b08c3e;
 .story .caption p {
     margin-bottom: 0px;
 }
+@media (min-width: 992px) {
+    .story .caption {
+        display: none;
+    }
+}
 @media (max-width: 991.98px) {
     .story figure {
-        width: auto;
-        margin: 0;
+        display: none;
+    }
+    .center-text {
+        font-size: 30px;
+        margin-bottom: 50px;
+        letter-spacing: 5px;
+        text-align: center;
     }
     .story .caption {
         position: relative;
@@ -1199,7 +1343,26 @@ color: #b08c3e;
         transform: translate(0, 0);
     }
     .story .caption h4 {
-    font-size: 36px;
+        color: #1b1b1b;
+        font-family: 'Cinzel Decorative', serif;
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+
+    .story .caption h6 {
+        color: #1b1b1b;
+        font-family: 'Cinzel', serif;
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    .story .caption p {
+        font-size: 15px;
     }
 }
 
@@ -1213,31 +1376,30 @@ color: #b08c3e;
     z-index: 1;
 }
 #countdown .section-head span {
-    display: block;
-    position: relative;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: #fff;
-    margin-bottom: 5px;
+    font-size: 100px;
+    color: #e7ba74;
+    vertical-align: middle;
 }
 #countdown .section-head h2 {
-    color: #fff;
+    color: #1b1b1b;
     font-weight: 400;
     font-size: 60px;
+    font-family: 'Cinzel', serif;
     margin-bottom: 0px;
 }
+
 #countdown .section-head h6 {
-    color: #fff;
-    font-size: 14px;
+    color: #1b1b1b;
+    font-size: 30px;
     font-weight: 400;
+    font-family: 'Cinzel', serif;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-family: 'Didact Gothic', sans-serif;
     margin-bottom: 10px;
 }
 #countdown .section-head p {
-        color: #FFF;
+    color: #1b1b1b;
     font-size: 24px;
     margin-bottom: 0;
 }
@@ -1246,13 +1408,13 @@ color: #b08c3e;
     padding: 0;
 }
 #countdown li {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Didact Gothic', serif;
     font-weight: 400;
     display: inline-block;
-    font-size: 12px;
+    font-size: 17px;
     list-style-type: none;
     padding: 15px;
-    color: #fff;
+    color: #1b1b1b;
     line-height: 4em;
     text-align: center;
     text-transform: uppercase;
@@ -1263,7 +1425,7 @@ color: #b08c3e;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 70px;
     font-weight: 700;
-    color: #fff;
+    color: #1b1b1b;
     letter-spacing: -1px;
 }
 @media all and (max-width: 768px) {
@@ -1354,7 +1516,7 @@ color: #b08c3e;
     letter-spacing: 3px;
 }
 .friends .info span {
-    color: #b08c3e;
+    color: #e7ba74;
     font-size: 22px;
     font-weight: 400;
     margin-bottom: 5px;
@@ -1422,7 +1584,7 @@ overflow: hidden !important;
           transform: scale(0);
 }
 .story-video .video-wrapper .vid .vid-butn .icon {
-    color: #b08c3e;
+    color: #e7ba74;
     width: 100px;
     height: 100px;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -1503,7 +1665,7 @@ overflow: hidden !important;
     font-family: 'Alex Brush', cursive;
 }
 .events .caption h6 {
-    color: #b08c3e;
+    color: #e7ba74;
     font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     margin-bottom: 10px;
@@ -1561,7 +1723,7 @@ overflow: hidden !important;
 .when-where .content .date h3 {
     font-size: 75px;
     font-weight: 600;
-    color: #b08c3e;
+    color: #e7ba74;
     margin-bottom: 0px;
     font-family: 'Didact Gothic', sans-serif;
 }
@@ -1597,7 +1759,7 @@ overflow: hidden !important;
 }
 .when-where .content .cont .cont-list li .icon span {
     font-size: 16px;
-    color: #b08c3e;
+    color: #e7ba74;
 }
 .when-where .content .cont .cont-list li .text {
     margin-left: 20px;
@@ -1613,13 +1775,13 @@ overflow: hidden !important;
     transition: all 500ms ease;
 }
 .when-where .content .cont .cont-list li .text p a:hover {
-    color: #b08c3e;
+    color: #e7ba74;
 }
 .when-where .content .cont p {
     margin-bottom: 10px;
 }
 .when-where .content .cont p i {
-    color: #b08c3e;
+    color: #e7ba74;
     font-size: 16px;
     margin-right: 5px;
 
@@ -1629,7 +1791,7 @@ overflow: hidden !important;
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #b08c3e;
+  color: #e7ba74;
   padding-left: 40px;
   position: relative;
 }
@@ -1637,7 +1799,7 @@ overflow: hidden !important;
   content: '';
   width: 30px;
   height: 1px;
-  background: #b08c3e;
+  background: #e7ba74;
   position: absolute;
   top: 50%;
   left: 0px;
@@ -1648,13 +1810,13 @@ overflow: hidden !important;
 .when-where .content .info h6 {
     font-size: 12px;
     letter-spacing: 5px;
-    color: #b08c3e;
+    color: #e7ba74;
     font-family: 'Didact Gothic', sans-serif;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 .when-where .content .info .tags {
-  color: #b08c3e;
+  color: #e7ba74;
 }
 @media screen and (max-width: 991px) {
     .when-where .content {
@@ -1693,6 +1855,7 @@ overflow: hidden !important;
 
 
 /* =======  Gallery style  ======= */
+
 .gallery-menu li a {
         cursor: pointer;
     display: block;
@@ -1706,7 +1869,7 @@ overflow: hidden !important;
 .gallery-menu a.active,
 .gallery-menu a:hover {
        color: #fff;
-    background-color: #b08c3e;
+    background-color: #e7ba74;
 }
 .gallery-item {
     position: relative;
@@ -1720,6 +1883,7 @@ overflow: hidden !important;
     position: relative;
     overflow: hidden;
     border-radius: 0;
+
 }
 .gallery-box .gallery-img:after {
     content: " ";
@@ -1768,7 +1932,68 @@ overflow: hidden !important;
 .gallery-box:hover .gallery-img>img {
     transform: scale(1.05);
 }
+.gallery-box .gallery-img > img {
+    width: 100%; /* Para que se adapten al contenedor */
+    height: 300px; /* Ajusta a la altura deseada */
+    object-fit: cover; /* Recorta las imágenes para mantener el aspecto */
+}
 
+/* Estilos generales para la galería */
+.gallery-box {
+    overflow: hidden;
+    position: relative;
+}
+.gallery-box .gallery-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+}
+.gallery-box .gallery-img>img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+    .gallery-filter {
+        display: block !important; /* Mostrar galería estática en pantallas grandes */
+    }
+    
+    .swiper-container {
+        display: none !important; /* Ocultar el carrusel Swiper en pantallas grandes */
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .gallery-filter {
+        display: none !important; /* Ocultar la galería estática en móviles */
+    }
+
+    .swiper-container {
+        display: block !important; /* Mostrar el carrusel Swiper en móviles */
+    }
+
+    /* Estilos para Swiper en móviles */
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
 
 /* ======= Blog style ======= */
 .marybrian-blog .img {
@@ -1804,7 +2029,7 @@ overflow: hidden !important;
     font-family: 'Didact Gothic', sans-serif;
     font-size: 70px;
     font-weight: 400;
-    color: #b08c3e;
+    color: #e7ba74;
     margin-bottom: 10px;
 }
 .marybrian-blog .content .date h6 {
@@ -1841,13 +2066,13 @@ overflow: hidden !important;
   content: '';
   width: 40px;
   height: 1px;
-  background: #b08c3e;
+  background: #e7ba74;
   position: absolute;
   top: 50%;
   left: 0px;
 }
 .marybrian-blog .content .cont .more:hover {
-   color: #b08c3e; 
+   color: #e7ba74; 
 }
 .marybrian-blog .content .info h6 {
     font-size: 12px;
@@ -1857,7 +2082,7 @@ overflow: hidden !important;
     text-transform: uppercase;
 }
 .marybrian-blog .content .info .tags {
-  color: #b08c3e;
+  color: #e7ba74;
 }
 @media screen and (max-width: 991px) {
     .marybrian-blog .content {
@@ -1996,13 +2221,13 @@ overflow: hidden !important;
 .blog-page .post-cont .date {
     font-size: 12px;
     text-transform: uppercase;
-    color: #b08c3e;
+    color: #e7ba74;
     font-weight: 400;
     letter-spacing: 5px;
 }
 .blog-page .post-cont .tag:hover,
 .blog-page .post-cont .date:hover {
-  color: #b08c3e;  
+  color: #e7ba74;  
 }
 .blog-page .post-cont h5 {
     font-size: 40px;
@@ -2013,7 +2238,7 @@ overflow: hidden !important;
     color: #000;
 }
 .blog-page .post-cont h5 a:hover {
-    color: #b08c3e;
+    color: #e7ba74;
 }
 .blog-page .post-cont .info {
     margin-top: 0px;
@@ -2044,16 +2269,16 @@ overflow: hidden !important;
     margin-bottom: 10px;
 }
 .blog-sidebar .widget ul li:hover {
-    color: #b08c3e;
+    color: #e7ba74;
 }
 .blog-sidebar .widget ul li a {
     color: #666;
 }
 .blog-sidebar .widget ul li a.active {
-    color: #b08c3e;
+    color: #e7ba74;
 }
 .blog-sidebar .widget ul li a:hover {
-    color: #b08c3e;
+    color: #e7ba74;
 }
 .blog-sidebar .widget ul li:last-child {
     margin-bottom: 0;
@@ -2119,7 +2344,7 @@ overflow: hidden !important;
 .blog-sidebar ul.tags li:hover,
 .blog-sidebar ul.tags li a:hover {
     color: #fff;
-    background-color: #b08c3e;
+    background-color: #e7ba74;
 }
 .blog-comment-section {
     padding-top: 60px;
@@ -2190,13 +2415,13 @@ overflow: hidden !important;
 .blog-pagination-wrap li a:hover {
     opacity: 1;
     text-decoration: none;
-    background-color: #b08c3e;
-    border: 1px solid #b08c3e;
+    background-color: #e7ba74;
+    border: 1px solid #e7ba74;
     color: #fff;
 }
 .blog-pagination-wrap li a.active {
-    background-color: #b08c3e;
-    border: 1px solid #b08c3e;
+    background-color: #e7ba74;
+    border: 1px solid #e7ba74;
     color: #fff;
 }
 .blog-pagination-wrap li a i { 
@@ -2229,7 +2454,7 @@ overflow: hidden !important;
     align-items: center;
 }
 .post-list li .icon span {
-    color: #b08c3e;
+    color: #e7ba74;
     font-size: 12px;
 }
 .post-list li .text {
@@ -2299,7 +2524,7 @@ overflow: hidden !important;
     fill: none;
 }
 .progress-wrap svg.progress-circle path {
-    stroke: #b08c3e;
+    stroke: #e7ba74;
     stroke-width: 2;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -2312,10 +2537,10 @@ overflow: hidden !important;
     box-shadow: inset 0 0 0 1px rgba(130, 130, 130, 0.2);
 }
 .progress-wrap::after {
-    color: #b08c3e;
+    color: #e7ba74;
 }
 .progress-wrap svg.progress-circle path {
-    stroke: #b08c3e;
+    stroke: #e7ba74;
 }
 
 
@@ -2330,7 +2555,7 @@ overflow: hidden !important;
     margin-bottom: 10px;
 }
 .gift-registry h6 {
-    color: #b08c3e;
+    color: #e7ba74;
 }
 .gift-registry a {
     color: #666;
@@ -2417,7 +2642,7 @@ overflow: hidden !important;
   z-index: 3;
 }
 .insta .follow .text-bg i {
-  color: #b08c3e;
+  color: #e7ba74;
     z-index: 1;
 }
 .insta .follow .text-bg span {
@@ -2462,7 +2687,7 @@ overflow: hidden !important;
     color: #666;
 }
 .sub-footer p a:hover {
-    color: #b08c3e;
+    color: #e7ba74;
 }
 
 
@@ -2481,7 +2706,7 @@ overflow: hidden !important;
         margin-left: 0px;
     }
     .nav-scroll .logo {
-        width: 150px;
+        width: 60px;
     }
     .logo-img {
         margin-bottom: 0px;
@@ -2524,7 +2749,7 @@ overflow: hidden !important;
         color: #666 !important;
     }
     .nav-scroll .navbar-collapse .active {
-        color: #b08c3e !important;
+        color: #e7ba74 !important;
     }
     .dropdown-menu {
         opacity: 1;
