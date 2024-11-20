@@ -152,7 +152,7 @@
         , mouseDrag: true
         , autoplay: false
         , dots: true
-        , nav: false
+        , nav: true
         , animateOut: 'fadeOut'
         , navText: ['<i class="ti-arrow-left" aria-hidden="true"></i>', '<i class="ti-arrow-right" aria-hidden="true"></i>']
         , responsiveClass: true

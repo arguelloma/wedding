@@ -1407,6 +1407,37 @@ color: #e7ba74;
     }
 }
 
+/**/
+/* Centrar las flechas verticalmente en el centro de la imagen */
+.owl-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.owl-carousel .owl-nav button {
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro para mayor visibilidad */
+    border: none;
+    color: white;
+    font-size: 30px; /* Ajusta el tamaño de las flechas */
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Estilo para las flechas */
+.owl-carousel .owl-nav button.owl-prev {
+    left: 10px; /* Ajusta la distancia desde el borde izquierdo */
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 10px; /* Ajusta la distancia desde el borde derecho */
+}
+
+
 
 /* =======  Countdown style  ======= */
 #countdown {
