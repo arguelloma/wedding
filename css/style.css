@@ -144,7 +144,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel Decorative', serif;
     font-weight: 400;
     line-height: 1em;
     margin: 0 0 20px 0;
@@ -1087,9 +1087,9 @@ color: #e7ba74;
 }
 .mary-hero .flexslider .slider-text > .slider-text-inner h2,
 .mary-hero .flexslider .slider-text > .slider-text-inner h2 {
-    font-size: 120px;
+    font-size: 100px;
     color: #fff;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel Decorative', serif;
     font-weight: 400;
     margin: 0;
     line-height: 1.25em;
@@ -1119,6 +1119,7 @@ color: #e7ba74;
         font-size: 60px;
         line-height: 1em;
         margin-bottom: 15px;
+        font-family: 'Cinzel Decorative', serif;
     }
     .mary-hero .flexslider .slider-text > .slider-text-inner h6 {
         font-size: 12px;
