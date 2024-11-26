@@ -45,18 +45,7 @@
         background-position: right -85px bottom 250px, left -80px top 350px;
         background-size: 350px, 300px;
     }
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
-    }
+    
 }
 
 
@@ -103,18 +92,6 @@
         background-repeat: no-repeat;
         background-position: left -150px bottom 600px; /* Posición de la flor en la esquina inferior izquierda */
         background-size: 400px; /* Ajusta el tamaño de la flor según lo necesites */
-    }
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
     }
 }
 
@@ -305,18 +282,6 @@ a[href^="tel"] {
         background-size: 800px;
         background-repeat: no-repeat;
     ;}
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
-    }
 }
 .p-40 {
     padding: 40px;
@@ -948,18 +913,6 @@ color: #e7ba74;
         padding: 15px;
         background-color: #fff;
     }
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
-    }
 }
 
 /* Logo inicial */
@@ -1080,18 +1033,6 @@ color: #e7ba74;
     .mary-hero .flexslider .slider-text > .slider-text-inner {
         text-align: center;
     }
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
-    }
 }
 .mary-hero .flexslider .slider-text > .slider-text-inner h2,
 .mary-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -1131,18 +1072,7 @@ color: #e7ba74;
     .mary-hero .flexslider .slider-text > .slider-text-inner h6 {
         font-size: 12px;
     }
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
-    }
+
 }
 .mary-hero .flexslider .slider-text > .slider-text-inner .heading-section {
     font-size: 50px;
@@ -1150,18 +1080,6 @@ color: #e7ba74;
 @media screen and (max-width: 768px) {
     .mary-hero .flexslider .slider-text > .slider-text-inner .heading-section {
         font-size: 30px;
-    }
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
     }
 }
 .mary-hero .flexslider .slider-text > .slider-text-inner p {
@@ -1176,18 +1094,6 @@ color: #e7ba74;
     .mary-hero .flexslider .slider-text > .slider-text-inner .btn {
         width: 100%;
     }
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
-    }
 }
 
 /* Estilo de fondo para desktop */
@@ -1199,18 +1105,6 @@ color: #e7ba74;
 @media screen and (max-width: 768px) {
     .mobile-bg {
         background-image: url('images/slider/2.jpg');
-    }
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
     }
 }
 
@@ -1383,18 +1277,6 @@ color: #e7ba74;
     .bride-groom .item, .bride-groom .toright .info {
         text-align: center;
     }
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
-    }
 }
 
 
@@ -1513,18 +1395,6 @@ color: #e7ba74;
     .story .caption p {
         font-size: 15px;
     }
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
-    }
 }
 
 /**/
@@ -1628,18 +1498,7 @@ color: #e7ba74;
   #countdown li span {
     font-size: 60px;
   }
-  .swiper-button-prev,
-  .swiper-button-next,
-  .swiper-rtl .swiper-button-prev,
-  .swiper-rtl .swiper-button-next {
-      display: none !important;
-  }
-  .swiper-button-lock {
-      display: none !important;
-  }
-  .swiper-pagination {
-      display: none !important;
-  }
+
 }
 
 
@@ -1748,18 +1607,6 @@ color: #e7ba74;
     }
     .friends .info {
         margin: 30px 0 0 0 !important;
-    }
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
     }
 }
 
@@ -1904,18 +1751,6 @@ overflow: hidden !important;
         -ms-transform: translate(0, 0);
         -webkit-transform: translate(0, 0);
         transform: translate(0, 0);
-    }
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
     }
 }
 
@@ -2065,18 +1900,6 @@ overflow: hidden !important;
         -ms-flex-order: 1 !important;
             order: 1 !important;
   }  
-  .swiper-button-prev,
-  .swiper-button-next,
-  .swiper-rtl .swiper-button-prev,
-  .swiper-rtl .swiper-button-next {
-      display: none !important;
-  }
-  .swiper-button-lock {
-      display: none !important;
-  }
-  .swiper-pagination {
-      display: none !important;
-  }
 }
 @media screen and (max-width: 480px) {
     .when-where .content {
@@ -2090,18 +1913,6 @@ overflow: hidden !important;
   }
     .when-where .content .date h3 {
     font-size: 40px;
-  }
-  .swiper-button-prev,
-  .swiper-button-next,
-  .swiper-rtl .swiper-button-prev,
-  .swiper-rtl .swiper-button-next {
-      display: none !important;
-  }
-  .swiper-button-lock {
-      display: none !important;
-  }
-  .swiper-pagination {
-      display: none !important;
   }
 }
 
@@ -2354,18 +2165,7 @@ overflow: hidden !important;
         -ms-flex-order: 1 !important;
             order: 1 !important;
   }  
-  .swiper-button-prev,
-  .swiper-button-next,
-  .swiper-rtl .swiper-button-prev,
-  .swiper-rtl .swiper-button-next {
-      display: none !important;
-  }
-  .swiper-button-lock {
-      display: none !important;
-  }
-  .swiper-pagination {
-      display: none !important;
-  }
+
 }
 @media screen and (max-width: 480px) {
     .marybrian-blog .content {
@@ -2380,19 +2180,7 @@ overflow: hidden !important;
     .marybrian-blog .content .date h3 {
     font-size: 40px;
   }
-  .swiper-button-prev,
-  .swiper-button-next,
-  .swiper-rtl .swiper-button-prev,
-  .swiper-rtl .swiper-button-next {
-      display: none !important;
-  }
-  .swiper-button-lock {
-      display: none !important;
-  }
-  .swiper-pagination {
-      display: none !important;
-  }
-}
+ }
 
 /* ======= Blog & Post style ======= */
 .blog .item {
@@ -2708,18 +2496,6 @@ overflow: hidden !important;
         padding: 0 0 60px 0;
         margin: 0;
         text-align: center;
-    }
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-rtl .swiper-button-prev,
-    .swiper-rtl .swiper-button-next {
-        display: none !important;
-    }
-    .swiper-button-lock {
-        display: none !important;
-    }
-    .swiper-pagination {
-        display: none !important;
     }
 }
 
