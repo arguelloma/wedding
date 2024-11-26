@@ -144,7 +144,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel', serif;
     font-weight: 400;
     line-height: 1em;
     margin: 0 0 20px 0;
@@ -267,6 +267,57 @@ a[href^="tel"] {
     color: inherit;
     text-decoration: none;
 }
+.bg-fixed1 {
+    background-attachment: fixed;
+}
+@media (max-width: 992px) {
+    .bg-fixed1 {
+    background-attachment: initial;}
+}
+
+.bg-fixed3 {
+    background: #fff;
+    background-image: url('images/slider/flor07.svg'); /* Cambia a la ruta de tu imagen de la flor */
+    background-repeat: no-repeat;
+    background-position: left 1330px top 110px; /* Posición de la flor en la esquina inferior izquierda */
+    background-size: 600px; /* Ajusta el tamaño de la flor según lo necesites */
+}
+@media (max-width: 992px) {
+    .bg-fixed3 {
+        background: #fff;
+        background-image: url('images/slider/flor07.svg');
+        background-position: right -250px top -50px;
+        background-size: 500px;
+        background-repeat: no-repeat;
+    ;}
+}
+
+
+/*Agenda*/
+.desktop-imageagenda {
+    display: block;
+}
+
+/* Mostrar solo la imagen para mobile */
+.mobile-imageagenda {
+    display: none;
+}
+
+/* Usar media queries para el móvil */
+@media (max-width: 768px) {
+    .desktop-imageagenda {
+        display: none;
+    }
+
+    .mobile-imageagenda {
+        display: block;
+        width: 350px;
+        height: 550px;
+    }
+}
+
+/**/
+
 .bg-fixed {
     background: #fff;
     background-image: url('images/slider/flor02.svg'); /* Cambia a la ruta de tu imagen de la flor */
@@ -955,7 +1006,7 @@ color: #e7ba74;
 }
 .banner-header h1 {
     font-size: 60px;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel', serif;
     font-weight: 400;
     color: #fff;
     position: relative;
@@ -1108,6 +1159,26 @@ color: #e7ba74;
     }
 }
 
+/* Estilo de fondo para desktop */
+.desktop-bg1 {
+    background-image: url('images/slider/3.jpg');
+    height: 40px; /* Reduce la altura */
+    width: 90%; /* Ajusta el ancho */
+    background-size: cover; /* Asegura que la imagen se ajuste al tamaño del contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    margin: 0 auto; /* Centra horizontalmente si es un bloque */
+}
+
+/* Cambia la imagen de fondo y ajusta el tamaño para pantallas de menos de 768px (móviles) */
+@media screen and (max-width: 768px) {
+    .mobile-bg1 {
+        background-image: url('images/slider/3.jpg');
+        height: 30px; /* Altura reducida en dispositivos móviles */
+        width: 100%; /* Ancho completo */
+        background-size: cover;
+        background-position: center;
+    }
+}
 
 
 /* =======  Section & Title style  ======= */
@@ -1145,19 +1216,66 @@ color: #e7ba74;
 }
 .rsvp h2 {
     color: #1b1b1b;
-    font-family: 'Didact Gothic', sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+    font-family: 'Serenity', sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    margin: 0 auto 10px auto; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
 }
+
 .rsvp h6 {
-    display: block;
-    color: #e7ba74;
-    font-size: 15px;
+    margin: 0 auto 10px auto; /* Centra horizontalmente */
+    color: #1b1b1b;
+    font-size: 30px;
     font-weight: 400;
-    font-family: 'Didact Gothic', sans-serif;
-    margin-bottom: 30px;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center; /* Centra el texto */
+}
+
+/* Contenedor del botón */
+.rsvp .button-container {
+    display: flex; /* Activamos Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100%; /* Asegura que ocupe toda la altura del contenedor */
+}
+
+/* Botón */
+.rsvp input[type="button"] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -680px; /* Mueve el botón hacia la derecha */
+    margin-top: 70px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    /* Contenedor del botón */
+    .rsvp .button-container {
+        display: flex; /* Activamos Flexbox */
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        height: 100%; /* Asegura que ocupe toda la altura del contenedor */
+    }
+
+    /* Botón */
+    .rsvp input[type="button"] {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: -480px; /* Mueve el botón hacia la derecha */
+        margin-top: 70px;
+        text-align: center;
+    }
 }
 
 /* =======  Welcome style  ======= */
@@ -2616,13 +2734,32 @@ overflow: hidden !important;
     margin-bottom: -90px;
 }
 .gift-registry h2 {
-    margin-bottom: 10px;
+    color: #1b1b1b;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Serenity', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
 }
 .gift-registry h6 {
-    color: #e7ba74;
+    color: #1b1b1b;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center; /* Centra el texto */
+}
+.gift-registry p {
+    text-align: center;
+    font-family: 'Serenity', sans-serif;
+    display: block;
+    color: #1b1b1b;
+    font-size: 16px;
+    font-weight: 300;
 }
 .gift-registry a {
-    color: #666;
+    color: #1b1b1b;
 }
 .gift-registry .owl-carousel {
     margin: 30px 0;
@@ -2643,6 +2780,27 @@ overflow: hidden !important;
     filter: grayscale(100%);
     -webkit-transition: all .5s;
     transition: all .5s;
+}
+
+
+#where p {
+    text-align: justify;
+    font-family: 'Serenity', sans-serif;
+    display: block;
+    color: #1b1b1b;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#where h6 {
+    margin: 0 auto 10px auto; /* Centra horizontalmente */
+    color: #1b1b1b;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center; /* Centra el texto */
 }
 
 
