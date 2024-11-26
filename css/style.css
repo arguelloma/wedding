@@ -149,6 +149,7 @@ h6 {
     line-height: 1em;
     margin: 0 0 20px 0;
     color: #1b1b1b;
+    font-weight: bold;
 }
 h1 {
     font-size: 40px;
@@ -1208,9 +1209,10 @@ color: #e7ba74;
 .section-subtitle {
     display: block;
     color: #1b1b1b;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 400;
     font-family: 'Cinzel', serif;
+    font-weight: bold;
     margin-bottom: 10px;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -1227,9 +1229,10 @@ color: #e7ba74;
 .rsvp h6 {
     margin: 0 auto 10px auto; /* Centra horizontalmente */
     color: #1b1b1b;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     font-family: 'Cinzel', serif;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center; /* Centra el texto */
@@ -1332,7 +1335,8 @@ color: #e7ba74;
     font-size: 16px;
     margin-bottom: 10px;
     color: #1b1b1b;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: bold;
     font-weight: 400;
     font-family: 'Cinzel', serif;
     text-transform: uppercase;
@@ -1505,7 +1509,8 @@ color: #e7ba74;
     .story .caption h6 {
         color: #1b1b1b;
         font-family: 'Cinzel', serif;
-        font-size: 30px;
+        font-size: 40px;
+        font-weight: bold;
         margin-bottom: 10px;
         text-transform: uppercase;
         letter-spacing: 5px;
@@ -1571,9 +1576,10 @@ color: #e7ba74;
 
 #countdown .section-head h6 {
     color: #1b1b1b;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     font-family: 'Cinzel', serif;
+    font-weight: bold;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-family: 'Didact Gothic', sans-serif;
@@ -2744,9 +2750,10 @@ overflow: hidden !important;
 }
 .gift-registry h6 {
     color: #1b1b1b;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     font-family: 'Cinzel', serif;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center; /* Centra el texto */
@@ -2796,9 +2803,10 @@ overflow: hidden !important;
 #where h6 {
     margin: 0 auto 10px auto; /* Centra horizontalmente */
     color: #1b1b1b;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     font-family: 'Cinzel', serif;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center; /* Centra el texto */
