@@ -335,6 +335,9 @@ a[href^="tel"] {
         background-repeat: no-repeat;
     ;}
 }
+.p-10 {
+    padding: 10px;
+}
 .p-40 {
     padding: 40px;
 }
@@ -1219,7 +1222,7 @@ color: #e7ba74;
 .section-subtitle {
     display: block;
     color: #1b1b1b;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 400;
     font-family: 'Cinzel', serif;
     font-weight: bold;
@@ -1236,59 +1239,56 @@ color: #e7ba74;
     text-align: center; /* Centra el texto */
 }
 
+/* Estilo general del texto */
 .rsvp h6 {
-    margin: 0 auto 10px auto; /* Centra horizontalmente */
+    margin: 0 auto 10px auto;
     color: #1b1b1b;
     font-size: 40px;
-    font-weight: 400;
     font-family: 'Cinzel', serif;
-    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
-    text-align: center; /* Centra el texto */
-}
-
-/* Contenedor del botón */
-.rsvp .button-container {
-    display: flex; /* Activamos Flexbox */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100%; /* Asegura que ocupe toda la altura del contenedor */
-}
-
-/* Botón */
-.rsvp input[type="button"] {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: -680px; /* Mueve el botón hacia la derecha */
-    margin-top: 70px;
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    /* Contenedor del botón */
-    .rsvp .button-container {
-        display: flex; /* Activamos Flexbox */
-        justify-content: center; /* Centra horizontalmente */
-        align-items: center; /* Centra verticalmente */
-        height: 100%; /* Asegura que ocupe toda la altura del contenedor */
+/* Estilo específico para destacar el número */
+.rsvp h6 .number-highlight {
+    font-size: 60px; /* Aumenta el tamaño del número */
+    color: #000; /* Color diferente para mayor énfasis */
+    margin: 0 80px; /* Agrega espacio adicional alrededor del número */
+}
+
+
+/* Estilo general */
+.responsive-text {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    white-space: nowrap; /* Evita el quiebre de línea en desktop */
+}
+
+.responsive-text .line-1,
+.responsive-text .line-2,
+.responsive-text .line-3 {
+    display: inline; /* Por defecto todo está en línea */
+}
+
+/* Estilo para móviles */
+@media (max-width: 768px) {
+    .responsive-text {
+        white-space: normal; /* Permite el quiebre de línea */
+        font-size: 16px; /* Ajusta el tamaño si es necesario */
     }
 
-    /* Botón */
-    .rsvp input[type="button"] {
-        display: inline-block;
-        padding: 10px 20px;
-        font-size: 16px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-left: -480px; /* Mueve el botón hacia la derecha */
-        margin-top: 70px;
-        text-align: center;
+    .responsive-text .line-1,
+    .responsive-text .line-2,
+    .responsive-text .line-3 {
+        display: block; /* Cada elemento ocupa una línea */
+    }
+
+    .responsive-text .line-2 {
+        font-size: 24px; /* Resalta el número */
+        margin: 10px 0; /* Espaciado entre líneas */
     }
 }
 
