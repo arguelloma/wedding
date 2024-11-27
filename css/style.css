@@ -131,7 +131,7 @@ body {
     font-smoothing: antialiased;
 }
 body {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-size: 16px;
     line-height: 1.75em;
     font-weight: 400;
@@ -170,7 +170,7 @@ h6 {
     font-size: 16px;
 }
 p {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-size: 22px;
     line-height: 1.75em;
     margin: 0 0 20px;
@@ -380,7 +380,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
 }
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -409,7 +409,7 @@ textarea,
     box-shadow: none;
     display: block;
     width: 100%;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.75em;
@@ -425,7 +425,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"],
 button {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     background: #e7ba74;
     border: 1px solid #e7ba74;
     color: #fff;
@@ -460,7 +460,7 @@ label {
     -moz-appearance: none;
     display: inline-block;
     vertical-align: middle;
-        font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.75em;
@@ -570,7 +570,7 @@ input[type=radio]:checked:before {
     -ms-border-radius: 0;
     border-radius: 0;
     padding: 0;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-size: 18px;
     line-height: 1.75em;
     font-weight: 400;
@@ -584,7 +584,7 @@ input[type=radio]:checked:before {
     border: 1px solid #ececec;
 }
 #message {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     height: 130px;
     padding: 12px;
     border: 1px solid #ececec;
@@ -718,7 +718,7 @@ input[type=radio]:checked:before {
     
 }
 .navbar .navbar-nav .nav-link {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
@@ -769,7 +769,7 @@ input[type=radio]:checked:before {
 }
 
 .nav-scroll .logo-wrapper .logo h2 {
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel', serif;
     font-size: 36px;
     font-weight: 400;
     margin-bottom: 0px;
@@ -782,7 +782,7 @@ input[type=radio]:checked:before {
 }
 .nav-scroll .logo-wrapper .logo span {
     display: block;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel', serif;
     font-size: 9px;
     color: #666;
     font-weight: 400;
@@ -800,7 +800,7 @@ input[type=radio]:checked:before {
     padding: 30px 0px;
 }
 .logo-wrapper .logo h2 {
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel', serif;
     font-size: 36px;
     font-weight: 400;
     display: block;
@@ -816,7 +816,7 @@ input[type=radio]:checked:before {
 }
 .logo-wrapper .logo span {
     display: block;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-size: 9px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -880,7 +880,7 @@ input[type=radio]:checked:before {
 .dropdown-menu .dropdown-item,
 .sub-menu .dropdown-item {
     padding: 5px 15px;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #1b1b1b;
@@ -998,7 +998,7 @@ color: #e7ba74;
 .banner-header h5 {
     color: #fff;
     font-size: 14px;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-weight: 400;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -1104,7 +1104,7 @@ color: #e7ba74;
 .mary-hero .flexslider .slider-text > .slider-text-inner h6 {
     font-size: 16px;
     color: #fff;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     margin: 0;
@@ -1142,7 +1142,7 @@ color: #e7ba74;
     color: #fff;
     font-size: 30px;
     font-weight: 400;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel', serif;
     line-height: 1.5em;
     margin-bottom: 0px;
 }
@@ -1211,7 +1211,7 @@ color: #e7ba74;
 }
 .section-title {
     color: #1b1b1b;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel', serif;
     font-weight: 400;
     font-size: 60px;
     margin-bottom: 20px;
@@ -1360,7 +1360,7 @@ color: #e7ba74;
       color: #e7ba74;
     font-size: 24px;
     font-weight: 400;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel', serif;
 }
 .bride-groom .info p {
     margin-top: 10px;
@@ -1468,11 +1468,11 @@ color: #e7ba74;
     font-size: 40px;
     color: #1b1b1b;
     margin-bottom: 10px;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel', serif;
 }
 .story .caption h6 {
     color: #1b1b1b;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-size: 12px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -1592,7 +1592,7 @@ color: #e7ba74;
     font-weight: bold;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     margin-bottom: 10px;
 }
 #countdown .section-head p {
@@ -1605,7 +1605,7 @@ color: #e7ba74;
     padding: 0;
 }
 #countdown li {
-    font-family: 'Didact Gothic', serif;
+    font-family: 'Serenity', sans-serif;
     font-weight: 400;
     display: inline-block;
     font-size: 17px;
@@ -1619,7 +1619,7 @@ color: #e7ba74;
 }
 #countdown li span {
       display: block;
-    font-family: 'Nunito Sans', sans-serif;
+      font-family: 'Serenity', sans-serif;
     font-size: 70px;
     font-weight: 700;
     color: #1b1b1b;
@@ -1648,7 +1648,7 @@ color: #e7ba74;
 #banner .section-head span {
     display: block;
     position: relative;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #fff;
@@ -1668,7 +1668,7 @@ color: #e7ba74;
     font-weight: 400;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     margin-bottom: 10px;
 }
 #banner .section-head h1 {
@@ -1677,7 +1677,7 @@ color: #e7ba74;
     font-size: 40px;
     font-weight: 400;
     text-transform: uppercase;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     margin-bottom: 20px;
 }
 #banner .section-head p {
@@ -1709,7 +1709,7 @@ color: #e7ba74;
 .friends .info h6 {
     font-size: 16px;
     margin-bottom: 0px;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -1718,7 +1718,7 @@ color: #e7ba74;
     font-size: 22px;
     font-weight: 400;
     margin-bottom: 5px;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel', serif;
 }
 .friends .info p {
     margin-bottom: 0;
@@ -1755,7 +1755,7 @@ overflow: hidden !important;
 }
 .story-video .video-wrapper .caption .title {
   color: #fff;
-    font-family: 'Alex Brush', cursive;
+  font-family: 'Cinzel', serif;
     font-weight: 400;
     font-size: 60px;
 }
@@ -1765,7 +1765,7 @@ overflow: hidden !important;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 400;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     margin-bottom: 10px;
 }
 .story-video .video-wrapper .vid {
@@ -1860,11 +1860,11 @@ overflow: hidden !important;
     color: #1b1b1b;
     line-height: 1.25em;
     margin-bottom: 10px;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel', serif;
 }
 .events .caption h6 {
     color: #e7ba74;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-size: 12px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -1923,13 +1923,13 @@ overflow: hidden !important;
     font-weight: 600;
     color: #e7ba74;
     margin-bottom: 0px;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
 }
 .when-where .content .date h6 {
     color: #666;
     letter-spacing: 3px;
     font-size: 12px;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     text-transform: uppercase;
 }
 .when-where .content .cont {
@@ -1940,7 +1940,7 @@ overflow: hidden !important;
 .when-where .content .cont h4 {
     font-size: 40px;
     color: #1b1b1b;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel', serif;
     margin-bottom: 10px;
 }
 .when-where .content .cont .cont-list {
@@ -2009,7 +2009,7 @@ overflow: hidden !important;
     font-size: 12px;
     letter-spacing: 5px;
     color: #e7ba74;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -2111,7 +2111,7 @@ overflow: hidden !important;
     text-align: center;
 }
 .gallery-box .gallery-detail h4 {
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Cinzel', serif;
     font-weight: 400;
     font-size: 24px;
     color: #fff;
@@ -2224,7 +2224,7 @@ overflow: hidden !important;
   z-index: 2;
 }
 .marybrian-blog .content .date h1 {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-size: 70px;
     font-weight: 400;
     color: #e7ba74;
@@ -2234,7 +2234,7 @@ overflow: hidden !important;
     color: #666;
     letter-spacing: 3px;
     font-size: 12px;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
 	padding-right: 3px;
@@ -2276,7 +2276,7 @@ overflow: hidden !important;
     font-size: 12px;
     letter-spacing: 3px;
     color: #666;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     text-transform: uppercase;
 }
 .marybrian-blog .content .info .tags {
@@ -2579,7 +2579,7 @@ overflow: hidden !important;
     margin-left: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Serenity', sans-serif;
 }
 .blog-repay {
     font-size: 13px;
@@ -2910,7 +2910,7 @@ overflow: hidden !important;
     margin-bottom: 10px;
 }
 .top-footer h6 {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     color: #fff;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -2923,7 +2923,7 @@ overflow: hidden !important;
     border-top: 1px solid rgba(255,255,255,0.03);
 }
 .sub-footer p {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Serenity', sans-serif;
     font-size: 14px;
     color: #666;
 }
