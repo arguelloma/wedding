@@ -1147,11 +1147,24 @@ color: #e7ba74;
     line-height: 1.5em;
     margin-bottom: 0px;
 }
+/* Estilo para pantallas más grandes (desktop) */
+.mary-hero .flexslider .slider-text > .slider-text-inner picture img {
+    height: 100px;
+    width: 500px;
+}
+
 @media screen and (max-width: 768px) {
     .mary-hero .flexslider .slider-text > .slider-text-inner .btn {
         width: 100%;
     }
+    .mary-hero .flexslider .slider-text > .slider-text-inner picture img {
+        height: 100px;
+        width: 200px;
+    }
 }
+
+
+
 
 /* Estilo de fondo para desktop */
 .desktop-bg {
