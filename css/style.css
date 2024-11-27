@@ -109,6 +109,7 @@
 
 #outfit p {
     text-align: justify;
+    font-size: 21px;
 }
 
 #outfit a {
@@ -1363,8 +1364,9 @@ color: #e7ba74;
     font-family: 'Cinzel', serif;
 }
 .bride-groom .info p {
-    margin-top: 10px;
-    font-size: 17px;
+    margin-top: 8px;
+    font-size: 18px;
+    text-align: justify;
 }
 .bride-groom .info .social {
   margin-top: 10px;
