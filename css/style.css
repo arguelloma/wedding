@@ -1182,6 +1182,16 @@ color: #e7ba74;
     }
 }
 
+.desktop-bgfinal {
+    background-image: url('images/slider/5.jpg');
+}
+
+/* Cambia la imagen de fondo para pantallas de menos de 768px (móviles) */
+@media screen and (max-width: 768px) {
+    .mobile-bgfinal {
+        background-image: url('images/slider/4.jpg');
+    }
+}
 
 /* =======  Section & Title style  ======= */
 .section-padding {
