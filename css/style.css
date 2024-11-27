@@ -272,9 +272,14 @@ a[href^="tel"] {
 .bg-fixed1 {
     background-attachment: fixed;
 }
+.bg-fixed-banner {
+    background-attachment: fixed;
+}
 @media (max-width: 992px) {
     .bg-fixed1 {
     background-attachment: initial;}
+    .bg-fixed-banner {
+        background-attachment: initial;}
 }
 
 .bg-fixed3 {
@@ -1176,27 +1181,6 @@ color: #e7ba74;
     }
 }
 
-/* Estilo de fondo para desktop */
-.desktop-bg1 {
-    background-image: url('images/slider/3.jpg');
-    height: 40px; /* Reduce la altura */
-    width: 90%; /* Ajusta el ancho */
-    background-size: cover; /* Asegura que la imagen se ajuste al tamaño del contenedor */
-    background-position: center; /* Centra la imagen en el contenedor */
-    margin: 0 auto; /* Centra horizontalmente si es un bloque */
-}
-
-/* Cambia la imagen de fondo y ajusta el tamaño para pantallas de menos de 768px (móviles) */
-@media screen and (max-width: 768px) {
-    .mobile-bg1 {
-        background-image: url('images/slider/3.jpg');
-        height: 30px; /* Altura reducida en dispositivos móviles */
-        width: 100%; /* Ancho completo */
-        background-size: cover;
-        background-position: center;
-    }
-}
-
 .desktop-bgfinal {
     background-image: url('images/slider/5.jpg');
 }
@@ -1209,6 +1193,23 @@ color: #e7ba74;
 }
 
 /* =======  Section & Title style  ======= */
+.section-padding-banner {
+    padding: 200px 0 550px 0;  /* Aumenta el padding superior e inferior */
+    clear: both;
+    width: 100%;
+    display: block;
+}
+
+@media (max-width: 992px) {
+    .section-padding-banner {
+        padding: 150px 0 90px 0;
+        clear: both;
+        width: 100%;
+        display: block;
+    }
+}
+
+
 .section-padding {
     padding: 100px 0;
     clear: both;
@@ -2952,6 +2953,9 @@ overflow: hidden !important;
     }
 }
 @media screen and (max-width: 991px) {
+    .bg-fixed-banner{
+        background-attachment: scroll !important;
+    }
     .bg-fixed {
         background-attachment: scroll !important;
     }
