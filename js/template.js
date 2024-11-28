@@ -154,7 +154,7 @@
         , dots: true
         , nav: true
         , animateOut: 'fadeOut'
-        , navText: ['<i class="ti-arrow-left" aria-hidden="true"></i>', '<i class="ti-arrow-right" aria-hidden="true"></i>']
+        , navText: ['<i aria-hidden="true"><img src="images/angle-left.svg" /></i>', '<i aria-hidden="true"><img src="images/angle-right.svg" /></i>']
         , responsiveClass: true
         , responsive: {
             0: {
@@ -178,7 +178,7 @@
         , dots: true
         , nav: false
         , animateOut: 'fadeOut'
-        , navText: ['<i class="ti-arrow-left" aria-hidden="true"></i>', '<i class="ti-arrow-right" aria-hidden="true"></i>']
+        , navText: ['<i aria-hidden="true"><img src="images/angle-left.svg" /></i>', '<i aria-hidden="true"><img src="images/angle-right.svg" /></i>']
         , responsiveClass: true
         , responsive: {
             0: {
