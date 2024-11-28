@@ -2193,17 +2193,23 @@ overflow: hidden !important;
         height: 100%;
     }
 
-    .swiper-slide {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
+    .swiper-container img {
+        width: 100%; /* Ajusta el ancho al 100% del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+        object-fit: cover; /* Ajusta cómo se rellenan las imágenes */
     }
-
-    .swiper-slide img {
+    
+    .swiper-container picture {
+        display: block;
+        width: 500px; /* Cambia a tu tamaño preferido */
+        height: 400px; /* Cambia a tu tamaño preferido */
+        overflow: hidden; /* Evita desbordes de la imagen */
+    }
+    
+    .swiper-container picture img {
         width: 100%;
-        height: 300px;
-        object-fit: cover;
+        height: 100%;
+        object-fit: cover; /* Opciones: contain, fill, cover */
     }
 }
 
